@@ -8,12 +8,8 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Next.js Chatbot',
   description: 'Next.js chatbot using the AI SDK.',
-  metadataBase: new URL('https://example.com'),
+  metadataBase: new URL('https://ai-chatbot-clone-v1.vercel.app'),
   openGraph: {
-    title: 'Next.js Chatbot',
-    description: 'Next.js chatbot using the AI SDK.',
-    url: '/',
-    type: 'website',
     images: '/chatbot.jpg',
   },
 };
