@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: 'Next.js chatbot using the AI SDK.',
   metadataBase: new URL('https://ai-chatbot-clone-v1.vercel.app'),
   openGraph: {
-    images: '/chatbot.jpg',
+    images: 'chatbot.jpg',
   },
 };
 
